@@ -22,7 +22,7 @@
         "basecodeoy/datobs": "^1.0"
     },
     "require-dev": {
-        "basecodeoy/standards": "^1.0.5"
+        "basecodeoy/standards": "^1.1.0"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
