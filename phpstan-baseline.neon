@@ -1,0 +1,111 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Cannot call method in\\(\\) on iterable\\<SplFileInfo\\>\\.$#"
+			count: 1
+			path: .php-cs-fixer.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Traktor\\\\Analyzers\\\\Analyzer\\:\\:addWeight\\(\\) has parameter \\$weightings with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Analyzers/Analyzer.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Traktor\\\\Analyzers\\\\Analyzer\\:\\:formatList\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Analyzers/Analyzer.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Traktor\\\\Analyzers\\\\Analyzer\\:\\:getSum\\(\\) has parameter \\$tracking with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Analyzers/Analyzer.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Traktor\\\\Analyzers\\\\Analyzer\\:\\:matchTrackingData\\(\\) has parameter \\$regex with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Analyzers/Analyzer.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Traktor\\\\Analyzers\\\\Analyzer\\:\\:toObj\\(\\) has parameter \\$list with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Analyzers/Analyzer.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Traktor\\\\Analyzers\\\\Analyzer\\:\\:toObj\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Analyzers/Analyzer.php
+
+		-
+			message: "#^Only booleans are allowed in &&, int\\|false given on the right side\\.$#"
+			count: 1
+			path: src/Analyzers/Analyzer.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Traktor\\\\Data\\\\AdditionalData\\:\\:__construct\\(\\) has parameter \\$lookup with generic class Spatie\\\\LaravelData\\\\DataCollection but does not specify its types\\: TKey, TValue$#"
+			count: 1
+			path: src/Data/AdditionalData.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Traktor\\\\Data\\\\CarrierData\\:\\:__construct\\(\\) has parameter \\$tracking_numbers with generic class Spatie\\\\LaravelData\\\\DataCollection but does not specify its types\\: TKey, TValue$#"
+			count: 1
+			path: src/Data/CarrierData.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Traktor\\\\Data\\\\TestNumbersData\\:\\:__construct\\(\\) has parameter \\$invalid with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Data/TestNumbersData.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Traktor\\\\Data\\\\TestNumbersData\\:\\:__construct\\(\\) has parameter \\$valid with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Data/TestNumbersData.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Traktor\\\\Data\\\\TrackingNumberData\\:\\:__construct\\(\\) has parameter \\$additional with generic class Spatie\\\\LaravelData\\\\DataCollection but does not specify its types\\: TKey, TValue$#"
+			count: 1
+			path: src/Data/TrackingNumberData.php
+
+		-
+			message: "#^Match expression does not handle remaining value\\: string$#"
+			count: 1
+			path: src/Links/Factories/StrategyFactory.php
+
+		-
+			message: "#^Construct empty\\(\\) is not allowed\\. Use more strict comparison\\.$#"
+			count: 1
+			path: src/Links/Strategies/AbstractStrategy.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Traktor\\\\Links\\\\Strategies\\\\AbstractStrategy\\:\\:buildTrackingUrl\\(\\) has parameter \\$parameters with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Links/Strategies/AbstractStrategy.php
+
+		-
+			message: "#^Call to an undefined method Pest\\\\PendingCalls\\\\TestCall\\:\\:expect\\(\\)\\.$#"
+			count: 1
+			path: tests/ArchTest.php
+
+		-
+			message: "#^Access to an undefined property Illuminate\\\\Foundation\\\\Application\\:\\:\\$config\\.$#"
+			count: 6
+			path: tests/TestCase.php
+
+		-
+			message: "#^Parameter \\#1 \\$app \\(Illuminate\\\\Application\\) of method Tests\\\\TestCase\\:\\:getPackageProviders\\(\\) should be contravariant with parameter \\$app \\(Illuminate\\\\Foundation\\\\Application\\) of method Orchestra\\\\Testbench\\\\TestCase\\:\\:getPackageProviders\\(\\)$#"
+			count: 1
+			path: tests/TestCase.php
+
+		-
+			message: "#^Parameter \\#1 \\$path of method Illuminate\\\\Foundation\\\\Application\\:\\:useStoragePath\\(\\) expects string, string\\|false given\\.$#"
+			count: 1
+			path: tests/TestCase.php
+
+		-
+			message: "#^Parameter \\$app of method Tests\\\\TestCase\\:\\:getPackageProviders\\(\\) has invalid type Illuminate\\\\Application\\.$#"
+			count: 1
+			path: tests/TestCase.php
+
+		-
+			message: "#^Cannot access property \\$carrier on BaseCodeOy\\\\Traktor\\\\Values\\\\TrackingNumber\\|null\\.$#"
+			count: 1
+			path: tests/Unit/AnalyzerTest.php

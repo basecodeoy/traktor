@@ -1,0 +1,17 @@
+{
+    "symbol-whitelist": [
+        "array",
+        "bool",
+        "false",
+        "int",
+        "null",
+        "self",
+        "string",
+        "true",
+        "Illuminate\\Support\\Arr",
+        "Illuminate\\Support\\Facades\\App",
+        "Spatie\\LaravelData\\Attributes\\DataCollectionOf",
+        "Spatie\\LaravelData\\Data",
+        "Spatie\\LaravelData\\DataCollection"
+    ]
+}
